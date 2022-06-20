@@ -1,0 +1,41 @@
+```{python}
+import temperature
+```
+
+```{python}
+c = temperature.to_celsius(33.3)
+c
+temperature.above_freezing(c)
+```
+
+```{python}
+import experiment
+```
+
+```{python}
+import temperature
+help(temperature)
+```
+
+```{python}
+sp = "species"
+sp.startswith('a')
+sp.startswith('s')
+```
+
+```{python}
+sp.endswith('s')
+sp.find("ec")
+```
+
+```{python}
+cs = "Computer Science"
+cs.swapcase().endswith("ENCE")
+```
+
+```{python}
+from PIL import Image
+from pygraphics import media
+f = media.choose_file()
+```
+

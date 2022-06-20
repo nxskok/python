@@ -1,0 +1,30 @@
+chapter 1
+
+```{python}
+3+4
+```
+
+```{python}
+def convert_mileage(mpg):
+  gpm = 1.0 / mpg
+  lpm = gpm * 3.78541
+  lpk = lpm / 1.60934
+  return lpk * 100
+```
+
+```{python}
+convert_mileage(20)
+convert_mileage(40)
+```
+
+```{python}
+def litres_needed(km, mpg):
+  lpck = convert_mileage(mpg)
+  return km / 100 * lpck
+```
+
+```{python}
+litres_needed(150, 30)
+litres_needed(100, 30)
+```
+

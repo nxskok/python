@@ -1,0 +1,15 @@
+```{python}
+import math
+help(math)
+```
+
+```{python}
+math.comb(10,3)
+```
+
+```{python}
+math.pi
+radius = 5
+print('area is %f' % (math.pi * radius ** 2))
+```
+

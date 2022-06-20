@@ -1,0 +1,62 @@
+```{python}
+'albert' + 'einstein'
+```
+
+```{python}
+'ht' + 3
+```
+
+```{python}
+'ay' * 5
+6 * 'ay'
+```
+
+```{python}
+'go' * (-2)
+```
+
+```{python}
+'that's not going to work'
+```
+
+```{python}
+"that's going to work"
+```
+
+```{python}
+'she said "that\'s hard to read"'
+```
+
+```{python}
+'''one
+two
+three'''
+```
+
+```{python}
+print(5 + 8)
+```
+
+```{python}
+print("one\ttwo\nthree\tfour\n")
+```
+
+```{python}
+radius = 5.0
+area = 3.14159 * radius * radius
+print("The area of a circle of radius", radius, "is", area)
+```
+
+```{python}
+print("The area of this circle is %f." % area)
+```
+
+```{python}
+print("The area of a circle of radius %f is %f." % (radius, area))
+```
+
+```{python}
+value = input("Enter something: ")
+print(value)
+```
+

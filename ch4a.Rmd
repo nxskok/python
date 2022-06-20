@@ -1,0 +1,73 @@
+```{python}
+import temperature
+```
+
+```{python}
+c = temperature.to_celsius(33.3)
+c
+temperature.above_freezing(c)
+```
+
+```{python}
+import experiment
+```
+
+```{python}
+import temperature
+help(temperature)
+```
+
+```{python}
+sp = "species"
+sp.startswith('a')
+sp.startswith('s')
+```
+
+```{python}
+sp.endswith('s')
+sp.find("ec")
+```
+
+```{python}
+cs = "Computer Science"
+cs.swapcase().endswith("ENCE")
+```
+
+```{python}
+from PIL import Image
+from pygraphics import media
+f = media.choose_file()
+```
+
+exercises
+
+```{python}
+import math
+help(math)
+math.floor(-4.3)
+x = -4.3
+abs(round(-4.3))
+```
+
+```{python}
+math.ceil(6.4)
+math.ceil(math.sin(34.5*2*math.pi/180))
+```
+
+```{python}
+import calendar
+calendar.isleap(2000)
+calendar.leapdays(1999, 2049)
+calendar.weekday(2016, 7, 29)
+calendar.day_name[calendar.weekday(2016, 7, 29)]
+```
+
+```{python}
+'boolean'.upper()
+'co2 h2o'.find('2', 3)
+x = 'Boolean'
+x.capitalize() != x
+'MoNDaY'.lower().upper()
+' Monday'.strip()
+```
+
